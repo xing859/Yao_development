@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>乳源瑶绣</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <div id="form_box">
+        <img class="yunduo" src="./images/yunduo.png" alt="">
+        <a href="./Index.html" class="logo_a">
+            <img src="./images/logo1.jpg" alt="">
+        </a>
+        <div class="form_list">
+            <ul>
+                <div class="form_title">
+                    <span class="title_style" id="loginTitle">
+                        登陆
+                        <div></div>
+                    </span>
+                    <span id="registerTitle">
+                        注册
+                        <div></div>
+                    </span>
+                    <div class="clear"></div>
+                </div>
+                <div class="box1">
+                    <li class="list_in">
+                        <input type="text" placeholder="请输入账号">
+                    </li>
+                    <li class="list_in">
+                        <input type="text" placeholder="请输入密码号">
+                    </li>
+                    <li class="xieyi">
+                        <input type="checkbox" id="agreeCheckbox" name="agreeCheckbox" value="agree">已阅读并同意 用户协议 和 隐私政策
+                    </li>
+                    <li class="caozuo">
+                        <button>登陆</button>
+                    </li>
+                </div>
+                <div class="box2" style="display: none;">
+                    <li class="list_in">
+                        <input type="text" placeholder="昵称">
+                    </li>
+                    <li class="list_in">
+                        <input type="text" placeholder="请输入账号">
+                    </li>
+                    <li class="list_in">
+                        <input type="text" placeholder="请输入密码号">
+                    </li>
+                    <li class="xieyi">
+                        <input type="checkbox" id="agreeCheckbox" name="agreeCheckbox" value="agree">已阅读并同意 用户协议 和 隐私政策
+                    </li>
+                    <li class="caozuo">
+                        <button>登陆</button>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+</body>
+<script>
+    // 获取登录和注册的span元素
+    const loginSpan = document.getElementById("loginTitle");
+    const registerSpan = document.getElementById("registerTitle");
+
+    // 获取box1和box2的元素
+    const box1 = document.querySelector(".box1");
+    const box2 = document.querySelector(".box2");
+
+    // 添加点击事件处理程序
+    loginSpan.addEventListener("click", function () {
+        // 显示box1
+        box1.style.display = "block";
+        // 隐藏box2
+        box2.style.display = "none";
+
+        // 切换类名
+        loginSpan.classList.add("title_style");
+        registerSpan.classList.remove("title_style");
+    });
+
+    registerSpan.addEventListener("click", function () {
+        // 显示box2
+        box2.style.display = "block";
+        // 隐藏box1
+        box1.style.display = "none";
+
+        // 切换类名
+        registerSpan.classList.add("title_style");
+        loginSpan.classList.remove("title_style");
+    });
+</script>
+
+</html>

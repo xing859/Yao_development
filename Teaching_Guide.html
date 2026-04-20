@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>乳源瑶绣</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/teaching-guidance.css">
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <header>
+        <div class="heard">
+            <div class="heard_left">
+                <div class="logo">
+                    <img src="./images/logo1.jpg" alt="">
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="./Index.html">网站首页</a>
+                        </li>
+                        <li>
+                            <a href="./Yao_Embroidery_Studies.html">瑶绣文化</a>
+                        </li>
+                        <li>
+                            <a href="./Legends_Folktales.html">视频专区</a>
+                        </li>
+                        <li class="rop-down-menu-box">
+                            <div class="drop-down-menu">
+                                <a href="./Teaching_Guide.html">学习传承</a>
+                                <div class="drop-box">
+                                    <a href="./Teaching_Guide.html">薪火守护</a>
+                                    <a href="./Needle_Pattern_Guide.html">针纹图鉴</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="./Creation.html">共创作品</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="heard_right">
+                <span>
+                    <input type="text" placeholder="请输入一个关键字">
+                </span>
+                <a href="Login.html">登录</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </header>
+    <!-- 中间内容区域 -->
+    <div id="banner2">
+        <div class="banner2">
+            <h3>学习传承</h3>
+            <p>Learning and inheritance</p>
+        </div>
+    </div>
+    <!-- 第二导航栏 -->
+    <div id="nav2">
+        <div class="nav2_box">
+            <a href="./Index.html">主页</a> - <a href="./Teaching_Guide.html">学习传承</a>
+        </div>
+    </div>
+
+    <!-- 中间主要内容 -->
+    <div id="main_box" class="teaching-page">
+        <h3>     一薪一承，延续瑶绣古老文脉<span></span> </h3>
+        
+        <!-- 第一块：板块引导文案区 -->
+        <div class="guide-intro">
+            <p>
+                乳源瑶绣，是穿越千年的文化瑰宝，承载着瑶族人民的历史记忆与族群智慧。在这里，我们汇聚非遗传承的力量，从世界过山瑶博物馆的珍贵馆藏，到国家级传承人邓菊花的技艺坚守，再到邓玉玲老师的时代新声，共同构建起瑶绣传承的完整生态。无论是想深入了解瑶绣文化的历史脉络，还是希望亲手学习这门古老技艺，这里都将是你探索瑶绣世界的起点。
+            </p>
+        </div>
+
+        <!-- 第二块：三栏卡片核心区 -->
+        <div class="heritage-cards">
+            <!-- 卡片 1：千年根脉・世界过山瑶博物馆 -->
+            <div class="heritage-card" data-card="1">
+                <div class="card-collapsed">
+                    <div class="card-image">
+                        <img src="./images/4-1-1.png" alt="世界过山瑶博物馆">
+                    </div>
+                    <div class="card-content">
+                        <h4>千年根脉：世界过山瑶博物馆</h4>
+                        <span class="card-tag">瑶绣文化实物档案馆</span>
+                        <p class="card-summary">
+                            国内唯一系统展示过山瑶历史文化的专题博物馆，是瑶绣千年文脉的权威馆藏与传承教育阵地，藏有大量珍贵瑶绣文物，完整还原瑶绣的起源与发展脉络。
+                        </p>
+                        <button class="expand-btn" onclick="toggleCard(1)">展开详情</button>
+                    </div>
+                </div>
+                <div class="card-expanded" id="card-expanded-1">
+                    <div class="expanded-content">
+                        <p>
+                            世界过山瑶博物馆，坐落于广东乳源瑶族自治县，是国内唯一一座系统展示过山瑶历史文化的专题博物馆，也是国家级非遗瑶族刺绣的核心馆藏与传承教育阵地。
+                        </p>
+                        <p>
+                            作为瑶绣千年文脉的「实物档案馆」，这里馆藏了大量珍贵的瑶绣文物：从清代、民国时期的过山瑶传统服饰绣片，到承载族群记忆的经典纹样原件，再到不同支系、不同地域的瑶绣传世珍品，完整还原了瑶绣从起源到发展的千年脉络。瑶族没有本民族通用文字，这些绣品上的「火文字」，便是记录族群迁徙、历史信仰、生产生活的活态史诗，也是我们读懂瑶绣文化内涵最权威、最直观的载体。
+                        </p>
+                        <div class="expanded-image">
+                            <img src="./images/4-1-2.png" alt="馆藏瑶绣服饰">
+                            <p class="image-caption">馆藏瑶绣传世珍品实拍</p>
+                        </div>
+                        <p>
+                            除了文物馆藏，这里更是瑶绣非遗传承与公众学习的核心阵地。博物馆常设瑶绣非遗专题展，系统梳理了瑶绣的三大核心技法、60 余种传统形纹的文化寓意、非遗保护的发展历程，同时常年开展瑶绣研学、传承人教学、公众体验等活动，与邓菊花、邓玉玲等非遗传承人深度联动，让千年瑶绣从馆藏文物，变成了可触摸、可学习、可传承的鲜活文化。
+                        </p>
+                        <div class="expanded-image">
+                            <img src="./images/4-1-3.png" alt="瑶绣研学活动">
+                            <p class="image-caption">博物馆瑶绣非遗研学活动现场</p>
+                        </div>
+                        <button class="collapse-btn" onclick="toggleCard(1)">收起详情</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 卡片 2：技艺坚守・国家级传承人邓菊花 -->
+            <div class="heritage-card" data-card="2">
+                <div class="card-collapsed">
+                    <div class="card-image">
+                        <img src="./images/4-2-1.png" alt="邓菊花老师">
+                    </div>
+                    <div class="card-content">
+                        <h4>技艺坚守：国家级传承人邓菊花</h4>
+                        <span class="card-tag">国家级非遗瑶绣代表性传承人</span>
+                        <p class="card-summary">
+                            邓菊花，国家级非物质文化遗产瑶族刺绣代表性传承人，也是瑶绣技艺系统化传承与普及的核心推动者。数十年来，她深耕瑶绣传统技艺，不仅创下世界最长瑶绣的纪录，更始终致力于将这门古老手艺的精髓传递给更多人。从儿时耳濡目染长辈刺绣，到以一生光阴守护瑶绣根脉，邓菊花老师用一针一线告诉我们：用心，便能让千年非遗生生不息。
+                        </p>
+                        <button class="expand-btn" onclick="toggleCard(2)">走进传承故事</button>
+                    </div>
+                </div>
+                <div class="card-expanded" id="card-expanded-2">
+                    <div class="expanded-content">
+                        <p>
+                            邓菊花，国家级非物质文化遗产瑶族刺绣代表性传承人，也是瑶绣技艺系统化传承与普及的核心推动者。
+                        </p>
+                        <p>
+                            数十年来，她深耕瑶绣传统技艺，不仅创下世界最长瑶绣的纪录，更始终致力于将这门古老手艺的精髓传递给更多人。她编写《瑶绣入门与实训》等专业教材，将口传心授的瑶绣针法、纹样内涵整理成体系化的学习内容；在名家工作坊中，她以手把手的教学方式，向到访的学习者拆解 "挑三压一" 的核心针法、反面刺绣的独门技艺，解读鹿形纹、万物和谐图等经典纹样背后的瑶族文化密码。
+                        </p>
+                        <div class="expanded-image">
+                            <img src="./images/4-2-2.png" alt="百米瑶绣长卷">
+                            <p class="image-caption">邓菊花老师创作的百米瑶绣长卷作品</p>
+                        </div>
+                        <p>
+                            从儿时耳濡目染长辈刺绣，到如今成为国家级非遗传承人，这根绣线，她握了一辈子。她会指着一幅万物和谐图，细细讲解里面动物、植物、人物纹样的寓意，那是瑶族人与自然共生的千年智慧；也会把自己珍藏的十卷作品一一展开，让学习者亲手触摸瑶绣的纹理，读懂反面直行绣、交叉绣、斜针绣的不同韵味。
+                        </p>
+                        <p>
+                            从创下世界最长瑶绣的恢宏，到冲击世界最小瑶绣的精巧，邓菊花老师用数十年的光阴，诠释了最朴素的道理：做任何事，只要用心，就能做好。而她也把这份坚守，连同绣针与彩线，一同交到了每一个愿意走近瑶绣的年轻人手中。
+                        </p>
+                        <div class="expanded-image">
+                            <img src="./images/4-2-3.png" alt="手把手教学">
+                            <p class="image-caption">邓菊花老师手把手教学瑶绣核心针法</p>
+                        </div>
+                        <button class="collapse-btn" onclick="toggleCard(2)">收起详情</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 卡片 3：时代新声・非遗传承人邓玉玲 -->
+            <div class="heritage-card" data-card="3">
+                <div class="card-collapsed">
+                    <div class="card-image">
+                        <img src="./images/4-3-1.png" alt="邓玉玲老师">
+                    </div>
+                    <div class="card-content">
+                        <h4>时代新声：非遗传承人邓玉玲</h4>
+                        <span class="card-tag">瑶绣校园传承与现代化探索者</span>
+                        <p class="card-summary">
+                            邓玉玲，乳源瑶绣非遗传承人，深耕瑶绣校园传承与现代化探索十余年，是连接古老瑶绣与当代青年的重要桥梁。瑶族没有本民族通用文字，瑶绣纹样便是记录族群历史的 "火文字"。邓玉玲老师始终扎根教学一线，将瑶绣带入校园，针对不同专业的学生定制差异化教学内容，让更多年轻人读懂纹样里的族群密码、掌握瑶绣的三大核心技法。她直面非遗传承的现实困局，更始终在数字浪潮中为瑶绣寻找平衡之路：既看见互联网为瑶绣带来的传播与市场化机遇，也坚守着手工艺的本真与温度，思考着如何让千年瑶绣在快节奏的当下，既不褪色，也能走出新路。
+                        </p>
+                        <button class="expand-btn" onclick="toggleCard(3)">走进传承故事</button>
+                    </div>
+                </div>
+                <div class="card-expanded" id="card-expanded-3">
+                    <div class="expanded-content">
+                        <p>
+                            邓玉玲，乳源瑶绣非遗传承人，深耕瑶绣校园传承与现代化探索十余年，是连接古老瑶绣与当代青年的重要桥梁。
+                        </p>
+                        <p>
+                            瑶族没有本民族通用文字，瑶绣纹样便是记录族群历史的 "火文字"。邓玉玲老师始终扎根教学一线，将瑶绣带入校园，针对不同专业的学生定制差异化教学内容，让更多年轻人读懂纹样里的族群密码、掌握瑶绣的三大核心技法。九届学生，数千个课时，她看着无数年轻人拿起绣针，几天就能绣出一个完整的纹样，却也遗憾地发现，一百个学生里，最终能坚持下来的，不过一两人。
+                        </p>
+                        <div class="expanded-image">
+                            <img src="./images/4-3-2.png" alt="工坊瑶绣作品">
+                            <p class="image-caption">邓玉玲老师工坊的经典瑶绣作品</p>
+                        </div>
+                        <p>
+                            她比谁都懂瑶绣的 "慢"：一幅中等大小的绣品，要耗去半个月的时光；一件大作品，绣娘要埋头绣上整整两年；单是打花结的手法，就有十二种门道。在快节奏的当下，这份 "慢功夫" 成了非遗传承最难的坎。
+                        </p>
+                        <p>
+                            她也比谁都清醒地看着数字时代的机遇与挑战：互联网让瑶绣有了走向全国的机会，小小的瑶绣香囊，能通过线上渠道收获千万订单；可批量生产的工业化绣品，终究替代不了手工刺绣的温度，一味迎合市场的简化与改造，也会让瑶绣失去最珍贵的传统本真。
+                        </p>
+                        <div class="expanded-image">
+                            <img src="./images/4-3-3.png" alt="校园教学">
+                            <p class="image-caption">邓玉玲老师向学生讲解瑶绣纹样文化</p>
+                        </div>
+                        <p>
+                            直到今天，邓玉玲老师依然在这条路上探索着。她始终握着那根穿越千年的彩线，一边守护着瑶绣的根，一边为它寻找着通往未来的路。
+                        </p>
+                        <button class="collapse-btn" onclick="toggleCard(3)">收起详情</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="footer">
+            <img class="footer_left" src="./images/footer_left.png" alt="">
+            <img class="footer_right" src="./images/footer_right.png" alt="">
+            <p>
+                版权所有©乳源瑶绣
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleCard(cardNum) {
+            const card = document.querySelector(`[data-card="${cardNum}"]`);
+            const expandedContent = document.getElementById(`card-expanded-${cardNum}`);
+            const isExpanded = expandedContent.classList.contains('show');
+
+            if (isExpanded) {
+                expandedContent.classList.remove('show');
+                card.classList.remove('expanded');
+            } else {
+                expandedContent.classList.add('show');
+                card.classList.add('expanded');
+            }
+        }
+    </script>
+</body>
+
+</html>
